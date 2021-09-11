@@ -1,0 +1,27 @@
+    * {
+        margin: 0;
+    }
+    
+    nav {
+        background-color: yellow;
+        width: 250px;
+        height: 100%;
+        box-shadow: 1px 0px 3px green;
+        float: left;
+        position: fixed;
+        text-decoration: none;
+    }
+    
+    main {
+        float: right;
+        width: calc(100%-250px)
+    }
+    
+    .menu {
+        margin-top: 50px;
+    }
+    
+    .menu a {
+        text-decoration: none;
+        display: block;
+    }
