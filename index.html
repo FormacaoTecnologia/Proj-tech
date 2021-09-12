@@ -11,16 +11,9 @@
 
 <body>
 
-    <!--Esta parte torna acessível para deficientes auditivos-->
-    <div vw class="enabled">
-        <div vw-access-button class="active"></div>
-        <div vw-plugin-wrapper>
-            <div class="vw-plugin-top-wrapper"></div>
-        </div>
-    </div>
 
     <!--Aqui esta a navegação do site-->
-    <nav class="menu">
+    <nav id="menu">
         <ul>
             <ul>
                 <li><a href="Home ">Home</a></li>
@@ -28,9 +21,11 @@
                 <li><a href="fale conosco.html ">Fale conosco</li></a>
                     <li><a href="news.html ">News</a></li>
             </ul>
+
     </nav>
     <!--Nome de página com uma imagen-->
     <main>
+
         <header>
             <h1> Covid News </h1>
             <img src="imagens/covid1.jpg " alt="imagem de várias pessoas usando máscaras. ">
@@ -52,5 +47,16 @@
         <footer>
 
         </footer>
+        <!--Esta parte torna acessível para deficientes auditivos-->
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
     </main>
 </body>
