@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="pt-br">
 <head>
     <meta charset="utf8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,31 +22,60 @@
     <main>
         <h1>Fale conosco</h1>
         <div>
-            <form method="post"></form>
-            <div>
-                <label for="name">Digite seu nome:</label>
-                <input type="text" name="nome Completo" id="nome" length=30>
+            <form action="" id="formulario" method="POST" name="formulario">
+            <div class="imput-group">
+                <label for="name">*Digite seu nome:</label>
+                <input type="text" id="nome" name="nome" required placeholder="insira seu nome completo" length=30/>
             </div>
-            <div>
+            <div class="imput-group">
+<label for="email">*seu Email:</label>
+<input type="email" id="email" required placeholder="insira seu email" />
+            </div>
+            <div class="imput-group">
 
-                <form method="post" action="" onSubmit="return ( verifica() )" name="frmEnvia"></form>
-                <label for="name">Digite seu email:</label>
-                <input name="email" type="text" class="input" id="email" onblur="checarEmail();" length=40>
-            </div>
-            <div>
-                <select name="genero">
-                        <option value="feminino">Feminino</option>
-                        <option value="masculino">Masculino</option>
-                        <option value="outro">Outro</option>
-                        </select>
-            </div>
-            <div>
-                <label for="name" observação>
-                <input type="Observacao" name="observacao" id="observacao" length=256>
-            </div>
-            <input type="submit" name="enviar" value="enviar">
+                <label for="genero">gênero:</label>
+                            <select name="genero" id="genero">
+                                <option value="">informe...</option>
+                                <option value="m">Masculino</option>
+                                <option value="f">Femenino</option>
+                                <option value="x">Prefiro não informar</option>
+                            </select>
+                                </div>
+                                <div class="imput-group">
+                                    <label for="observacao">observação</label>
+
+                                        <input type="observacao" name="observacao" id="observacao" length=256>
+                                    </div>
+                                    <div class="footer"> 
+    <button type="button" class="botao" onclick="validar ()">enviar
+    </button>
+                                    </div>
             </form>
-            <a href="index.html">Voltar para home</a>
+            <script> 
+            function validar() {
+                var nome=document.getElementById("nome");
+                var email=document.getElementById("email");
+                var genero = document.getElementById("genero");
+                if(nome.value == "") {
+                    alert("nome não informado");
+                    nome.focus();
+                    return;
+                }
+                if(email.value == "") {
+                    alert("email não informado");
+                    email.focus();
+                    return;                                
+                     }  
+                     if(genero.value == "") {
+                         alert("gênero não informado");
+                         genero.focus();
+                         return;
+                     }
+      alert("formulario enviado com sucesso!");
+      //formulario.submit();               
+                                   }
+</script> 
+           <a href="index.html">Voltar para home</a>
 
         </div>
          <!--Esta parte torna acessível para deficientes auditivos-->
