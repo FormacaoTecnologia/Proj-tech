@@ -32,7 +32,6 @@
 <input type="email" id="email" required placeholder="insira seu email" />
             </div>
             <div class="imput-group">
-
                 <label for="genero">gênero:</label>
                             <select name="genero" id="genero">
                                 <option value="">informe...</option>
@@ -43,7 +42,6 @@
                                 </div>
                                 <div class="imput-group">
                                     <label for="observacao">observação</label>
-
                                         <input type="observacao" name="observacao" id="observacao" length=256>
                                     </div>
                                     <div class="footer"> 
@@ -51,31 +49,8 @@
     </button>
                                     </div>
             </form>
-            <script> 
-            function validar() {
-                var nome=document.getElementById("nome");
-                var email=document.getElementById("email");
-                var genero = document.getElementById("genero");
-                if(nome.value == "") {
-                    alert("nome não informado");
-                    nome.focus();
-                    return;
-                }
-                if(email.value == "") {
-                    alert("email não informado");
-                    email.focus();
-                    return;                                
-                     }  
-                     if(genero.value == "") {
-                         alert("gênero não informado");
-                         genero.focus();
-                         return;
-                     }
-      alert("formulario enviado com sucesso!");
-      //formulario.submit();               
-                                   }
-</script> 
-           <a href="index.html">Voltar para home</a>
+            <script src="js/covid.js">
+            href="index.html">Voltar para home</a>
 
         </div>
          <!--Esta parte torna acessível para deficientes auditivos-->
