@@ -92,10 +92,17 @@
   
   h2 {
       font-size: 18px;
+      margin-left: 1.5%;
   }
   
   h3 {
       font-size: 16 px;
+      margin-left: 1.5%;
+  }
+  
+  h4 {
+      font-size: 14 px;
+      margin-left: 1.5%;
   }
   
   p {
