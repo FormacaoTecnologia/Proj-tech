@@ -1,75 +1,105 @@
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        
-        body {
-            background-color: rgb(245, 245, 245);
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 16px;
-        }
-        /*Tronado o site responsivo*/
-        
-        main {
-            border-radius: 30px;
-            background-color: rgba(228, 226, 226, 0.972);
-            min-width: 80%;
-            max-width: 80%;
-            margin: 0 auto;
-        }
-        
-        img {
-            width: 100%;
-            border-radius: 10px;
-            border: 4px solid rgb(19, 63, 209);
-            padding: 5px;
-        }
-        /* formatação do menu*/
-        
-        nav#menu {
-            display: block;
-        }
-        
-        #menu ul {
-            list-style: none;
-            text-transform: uppercase;
-            position: relative;
-            top: 0;
-            left: 2.5%;
-        }
-        
-        #menu li {
-            display: inline-block;
-            background-color: rgb(243, 242, 242);
-            padding: 10px;
-            margin: 2px;
-            transition: background-color 1s;
-        }
-        
-        #menu li:hover {
-            background-color: rgb(185, 228, 230);
-        }
-        
-        #menu a {
-            color: black;
-            text-decoration: none;
-        }
-        
-        #menu a:hover {
-            color: indianred;
-        }
-        
-        img {
-            width: 50%;
-            height: 50%;
-            margin-left: 20%;
-            margin-right: 20%;
-        }
-        
-        header h1 {
-            text-align: center;
-        }
-        
-        h2 {
-            padding-left: 5%;
-        }
+  * {
+      margin: 0;
+      padding: 0;
+  }
+  
+  body {
+      background-color: rgb(245, 245, 245);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+  }
+  /*Tronado o site responsivo*/
+  
+  main {
+      border-radius: 30px;
+      background-color: rgba(228, 226, 226, 0.972);
+      min-width: 80%;
+      max-width: 80%;
+      margin: 0 auto;
+  }
+  
+  img {
+      width: 100%;
+      border-radius: 10px;
+      border: 4px solid rgb(19, 63, 209);
+      padding: 5px;
+  }
+  /* formatação do menu*/
+  
+  nav#menu {
+      display: block;
+  }
+  
+  #menu ul {
+      list-style: none;
+      text-transform: uppercase;
+      position: relative;
+      top: 0;
+      left: 5%;
+  }
+  
+  #menu li {
+      display: inline-block;
+      background-color: rgb(243, 242, 242);
+      padding: 10px;
+      margin: 2px;
+      transition: background-color 1s;
+  }
+  
+  #menu li:hover {
+      background-color: rgb(185, 228, 230);
+  }
+  
+  #menu a {
+      color: black;
+      text-decoration: none;
+      font-size: 12px;
+  }
+  
+  #menu a:hover {
+      color: indianred;
+  }
+  /* formatação das imagens*/
+  
+  img {
+      width: 50%;
+      height: 50%;
+      margin-left: 20%;
+      margin-right: 20%;
+  }
+  /*formatação do header e paragrafos*/
+  
+  header h1 {
+      text-align: center;
+      padding-block: 2%;
+      font-size: 24px;
+      color: rgb(17, 17, 16);
+      background-color: rgba(236, 236, 236, 0.397);
+  }
+  
+  header :hover {
+      background-color: rgb(221, 208, 208);
+      color: rgb(224, 14, 14);
+      transition: background-color 1s;
+  }
+  
+  header h2 {
+      padding-left: 4%;
+      padding-bottom: 2.5%;
+      font-size: 20p;
+      color: darkslategray
+  }
+  
+  p {
+      text-justify;
+      line-height: 1.8;
+      text-indent: 1.5em;
+      margin-left: 10px;
+      font-size: medium;
+      word-spacing: normal;
+  }
+  
+  p:hover {
+      background-color: rgb(245, 245, 245);
+      font-size: large;
+  }
