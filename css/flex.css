@@ -62,7 +62,6 @@
         
         #rodape {
             display: flex;
-            background-image: url(../img/alert-4960172_1280.jpg);
             margin-top: 50px;
             margin-left: 5%;
             margin-right: 5%;
@@ -74,10 +73,12 @@
             margin-left: 150px;
             color: black;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            padding-bottom: 40px;
+            padding-bottom: 10px;
         }
         
         .social {
             margin-top: 5px;
             margin-bottom: 5px;
+            width: 8%;
+            height: 8%px;
         }
