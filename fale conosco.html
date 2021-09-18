@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="utf8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,49 +24,45 @@
         <h1>Fale conosco</h1>
         <div>
             <form action="" id="formulario" method="POST" name="formulario">
-            <div class="imput-group">
-                <label for="name">*Digite seu nome:</label>
-                <input type="text" id="nome" name="nome" required placeholder="insira seu nome completo" length=30/>
-            </div>
-            <div class="imput-group">
-<label for="email">*seu Email:</label>
-<input type="email" id="email" required placeholder="insira seu email" />
-            </div>
-            <div class="imput-group">
-                <label for="genero">gênero:</label>
-                            <select name="genero" id="genero">
+                <div class="imput-group">
+                    <label for="name">Digite seu nome:</label>
+                    <input type="text" id="nome" name="nome" required placeholder="insira seu nome completo" length=30/>
+                </div>
+                <div class="imput-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" required placeholder="insira seu email" />
+                </div>
+                <div class="imput-group">
+                    <label for="genero">gênero:</label>
+                    <select name="genero" id="genero">
                                 <option value="">informe...</option>
                                 <option value="m">Masculino</option>
                                 <option value="f">Femenino</option>
                                 <option value="x">Prefiro não informar</option>
                             </select>
-                                </div>
-                                <div class="imput-group">
-                                    <label for="observacao">observação</label>
-                                        <input type="observacao" name="observacao" id="observacao" length=256>
-                                    </div>
-                                    <div class="footer"> 
-    <button type="button" class="botao" onclick="validar ()">enviar
+                </div>
+                <div class="imput-group">
+                    <label for="observacao">observação</label>
+                    <input type="observacao" name="observacao" id="observacao" length=256>
+                </div>
+                <div class="footer">
+                    <button type="button" class="botao" onclick="validar ()">enviar
     </button>
-                                    </div>
-            </form>
-            <script src="js/covid.js">
-            href="index.html">Voltar para home</a>
-
-        </div>
-         <!--Esta parte torna acessível para deficientes auditivos-->
-         <div vw class="enabled">
-            <div vw-access-button class="active"></div>
-            <div vw-plugin-wrapper>
-                <div class="vw-plugin-top-wrapper"></div>
-            </div>
-        </div>
-        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-        <script>
-            new window.VLibras.Widget('https://vlibras.gov.br/app');
-        </script>
+                    <!--Esta parte torna acessível para deficientes auditivos-->
+                    <div vw class="enabled">
+                        <div vw-access-button class="active"></div>
+                        <div vw-plugin-wrapper>
+                            <div class="vw-plugin-top-wrapper"></div>
+                        </div>
+                    </div>
+                    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+                    <script>
+                        new window.VLibras.Widget('https://vlibras.gov.br/app');
+                    </script>
+                    <script src="covid.js"></script>
     </main>
-    <script type="covid.js"></script>
+    <script src="covid.js"></script>
+
 </body>
 
 </html>
