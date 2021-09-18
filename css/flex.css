@@ -86,8 +86,16 @@
   header h2 {
       padding-left: 4%;
       padding-bottom: 2.5%;
-      font-size: 20p;
+      font-size: 20px;
       color: darkslategray
+  }
+  
+  h2 {
+      font-size: 18px;
+  }
+  
+  h3 {
+      font-size: 16 px;
   }
   
   p {
