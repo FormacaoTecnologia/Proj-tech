@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(245, 245, 245);
+    background-color: #f28500;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
@@ -13,8 +13,9 @@ body {
 /*Tronado o site responsivo*/
 
 main {
-    border-radius: 30px;
-    background-color: rgba(228, 226, 226, 0.972);
+    border-radius: 20px;
+    background-color: rgb(211, 208, 208);
+    border: 2px solid #0d7aff;
     min-width: 80%;
     max-width: 80%;
     margin: 0 auto;
@@ -23,7 +24,7 @@ main {
 img {
     width: 100%;
     border-radius: 10px;
-    border: 4px solid rgb(19, 63, 209);
+    border: 4px solid #0d7aff;
     padding: 5px;
 }
 
@@ -51,7 +52,7 @@ nav#menu {
 }
 
 #menu li:hover {
-    background-color: rgb(185, 228, 230);
+    background-color: #0d7aff;
 }
 
 #menu a {
@@ -61,7 +62,8 @@ nav#menu {
 }
 
 #menu a:hover {
-    color: indianred;
+    color: #f28500;
+    font-weight: bold;
 }
 
 
@@ -131,6 +133,7 @@ p {
 
 p:hover {
     background-color: rgb(245, 245, 245);
+    transition-duration: 1s;
 }
 
 #video {
@@ -158,4 +161,24 @@ p:hover {
 
 label {
     margin-left: 20%;
+}
+
+.imagem {
+    width: 15%;
+    border-radius: 10px;
+    border: 4px solid #0d7aff;
+    padding: 5px;
+}
+
+.imagem:hover {
+    background-color: #f28500;
+}
+
+.formato {
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: darkslategray;
+    font-size: medium;
 }
