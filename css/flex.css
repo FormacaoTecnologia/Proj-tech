@@ -150,3 +150,12 @@ p:hover {
     background-color: chocolate;
     line-height: 2.5;
 }
+
+#texto {
+    height: 150px;
+    width: 150px;
+}
+
+label {
+    margin-left: 20%;
+}
