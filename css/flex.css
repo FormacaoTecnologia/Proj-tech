@@ -182,3 +182,31 @@ label {
     color: darkslategray;
     font-size: medium;
 }
+
+.pessoas li {
+    list-style: none;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    position: relative;
+    margin-left: 4.5%;
+    color: dimgray
+}
+
+#menu li {
+    display: inline-block;
+    background-color: rgb(243, 242, 242);
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+.pessoas li:hover {
+    background-color: whitesmoke;
+}
+
+.pessoas a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
