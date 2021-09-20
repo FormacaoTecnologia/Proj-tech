@@ -1,5 +1,6 @@
 
 //Aqui eu criei a função validar.
+
 function validar() {
     //Depois, chamei os elementos por id.
     var nome = document.getElementById("nome");
