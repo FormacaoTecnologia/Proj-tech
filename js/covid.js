@@ -7,7 +7,7 @@ function validar() {
     var email = document.getElementById("email");
     var genero = document.getElementById("genero");
     //Aqui utilizei condicionais se os campos estiverem vazios, utilizando posteriormente alertas de erro. 
-    if (nome.value == "") {
+if (nome.value == "") {         
         alert("nome não informado");
         //Aqui dei foco nos elementos e usei um retorno para parar a execução  
         nome.focus();
