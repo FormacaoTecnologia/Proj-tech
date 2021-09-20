@@ -150,13 +150,13 @@ p:hover {
 /*estilização do formulario para*/
 
 #formulario {
-    background-color: chocolate;
     line-height: 2.5;
 }
 
 #texto {
     height: 150px;
-    width: 150px;
+    width: 450px;
+    margin-left: 20%;
 }
 
 label {
