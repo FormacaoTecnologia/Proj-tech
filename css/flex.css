@@ -213,6 +213,7 @@
         
         div.pessoas a {
             margin-left: 20%;
+            text-decoration: none;
         }
         
         a.fonte {
@@ -236,7 +237,7 @@
         }
         
         .botao {
-            width: 41.7%;
+            width: 52%;
             margin-left: 20%;
             font-family: Arial, Helvetica, sans-serif;
             text-transform: uppercase;
@@ -248,7 +249,6 @@
         
         footer {
             position: relative;
-            background-color: #043168;
             margin-left: auto;
             border-radius: 20px;
             min-width: 20px;
@@ -256,6 +256,7 @@
             max-height: 40px;
             min-height: 40px;
             padding: 10px;
+            text-decoration: none;
         }
         
         #rodape {
