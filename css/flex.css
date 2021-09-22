@@ -162,7 +162,7 @@
         
         .imagem:hover {
             background-color: #f28500;
-            transform: scale(1.5);
+            transform: scale(2.0);
             transition-duration: 1s
         }
         
@@ -212,7 +212,7 @@
         }
         
         div.pessoas a {
-            margin-left: 10%;
+            margin-left: 20%;
         }
         
         a.fonte {
@@ -230,7 +230,7 @@
             color: #f28500;
         }
         
-        label {
+        #label {
             color: #043168;
             font-family: Arial, Helvetica, sans-serif;
         }
@@ -265,4 +265,12 @@
         
         footer p:hover {
             background-color: rgb(214, 223, 230);
+        }
+        
+        fieldset {
+            min-width: 60%;
+            max-width: 80%;
+            max-height: 80%;
+            min-height: 60%;
+            padding: 10px;
         }
